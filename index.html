@@ -1,26 +1,5 @@
-
 <html>
-	<head>
-		<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
-		<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.5.4.js"></script>
-		<title>Daxia Software</title>
-	</head>
-	<body>
-		<ul id="menu">
-		</ul>
-		<script>
-			AV.initialize("36hvhroz62wzf4s7jz1r8cv5l23fws5fh5zkde58rm74wrif", "qtis5gzzoss65p90kok7nrydwu3opevjh7yj2okyqj0ceyfu");
-			//var Menu = AV.Object.extend("menu");
-
-			var query = new AV.Query("menu");
-			query.find({
-			  success: function(menus) {
-			  	for (var i = 0; i < menus.length; i++) {
-			  		var menu = menus[i];
-			  		$('#menu').append('<li>' + menu.attributes.name + '</li>');
-			  	}
-			  }
-			});	
-		</script>
-	</body>
+ <body>
+ <h2>系统维护中……</h2>
+ </body>
 </html>
